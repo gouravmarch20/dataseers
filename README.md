@@ -18,5 +18,5 @@ an  drag-and-drop functionality for task management .
 ## View
 
 
-![Alt text](https://res.cloudinary.com/trixoon/image/upload/v1704399845/mern-fiverr/qwhoa0xvp592fms3rkag.png"demo image")
+![dataseers](https://res.cloudinary.com/trixoon/image/upload/v1704399845/mern-fiverr/qwhoa0xvp592fms3rkag.png)
 

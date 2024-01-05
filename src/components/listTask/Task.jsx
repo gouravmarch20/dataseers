@@ -13,7 +13,7 @@ const Task = ({ setTasks, task, tasks }) => {
   const handleRemove = (id) => {
     const fTasks = tasks.filter((t) => t?.id !== id)
     localStorage.setItem("tasks", JSON.stringify(fTasks))
-console.log(99 , fTasks);
+    console.log(99, fTasks)
 
     setTasks(fTasks)
     toast("task removed  ")
@@ -26,7 +26,10 @@ console.log(99 , fTasks);
       }`}
     >
       <p>{task?.name}</p>
-      <button className="mt-3" onClick={() => handleRemove(task.id)}> ❌ </button>
+      <button className="mt-3" onClick={() => handleRemove(task.id)}>
+        {" "}
+        ❌{" "}
+      </button>
     </div>
   )
 }

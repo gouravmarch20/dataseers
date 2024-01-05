@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 
-import Section from './listTask/Section'
+import Section from "./listTask/Section"
 const ListStatus = ({ tasks, setTasks }) => {
   const [todos, setTodos] = useState([])
   const [inProgress, setInProgress] = useState([])
@@ -9,7 +9,7 @@ const ListStatus = ({ tasks, setTasks }) => {
   useEffect(() => {
     const fTodos = tasks?.filter((task) => task.status === "todo")
     const fInProgress = tasks?.filter((task) => task.status === "inprogress")
-    const fClosed = tasks?.filter((task) => task.status === "closed")    
+    const fClosed = tasks?.filter((task) => task.status === "closed")
     setTodos(fTodos)
     setInProgress(fInProgress)
     setClosed(fClosed)
